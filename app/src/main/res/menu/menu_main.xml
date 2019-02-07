@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.acar.acar.MainActivity">
+    <item
+        android:id="@+id/fale_conosco"
+        android:orderInCategory="100"
+        android:title="@string/fale_conosco"
+        app:showAsAction="never" /> // o never deixa oculta a barra ate que o usuario clique
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
